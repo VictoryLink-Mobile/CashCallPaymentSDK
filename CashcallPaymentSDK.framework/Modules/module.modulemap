@@ -1,0 +1,11 @@
+framework module CashcallPaymentSDK {
+  umbrella header "CashcallPaymentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CashcallPaymentSDK.Swift {
+    header "CashcallPaymentSDK-Swift.h"
+    requires objc
+}
